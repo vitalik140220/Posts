@@ -27,7 +27,7 @@ const CreatePost = ({ input, post, inputText, color }) => {
 		<div style={styles.conteiner}>
 			<h2>Input name post</h2>
 			<InputPost />
-			<h2>Input you text</h2>
+			<h2>Input your text</h2>
 			<textarea
 				value={inputText}
 				onChange={(e) => dispatch(changeTextArea(e.target.value))}
